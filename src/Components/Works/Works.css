@@ -79,35 +79,38 @@
 
 }
 
-.blueCircle{
+.blueCircle {
     background: #1949bb;
     left: 18rem;
     top: 0;
 }
 
-.yellowCircle{
+.yellowCircle {
     background: #f5c32c;
     left: 18rem;
-    top: 8rem ;
+    top: 8rem;
 }
 
 @media screen and (max-width: 480px) {
-    .works{
+    .works {
         flex-direction: column;
         gap: 5rem;
         padding: 0;
         height: 55rem;
     }
-    .w-right{
+
+    .w-right {
         display: flex;
         align-items: flex-start;
-        justify-content: start;
+        justify-content: flex-start;
         transform: scale(0.7);
     }
-    .w-mainCircle{
+
+    .w-mainCircle {
         position: static;
     }
-    .w-backgroundCircle{
+
+    .w-backgroundCircle {
         left: 8rem !important;
     }
 }
